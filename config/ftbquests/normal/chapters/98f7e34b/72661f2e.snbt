@@ -1,0 +1,19 @@
+{
+	title: "Теперь МЭ система не заглохнет",
+	x: 9.0d,
+	y: 4.0d,
+	text: [
+		"Ну, она и до этого прекрасно работала"
+	],
+	dependencies: [
+		"9f4f32d5"
+	],
+	tasks: [{
+		uid: "f8fbd3b7",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:creative_energy_cell"
+		}],
+		ignore_nbt: 1b
+	}]
+}

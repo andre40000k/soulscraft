@@ -1,0 +1,39 @@
+{
+	title: "О ДА",
+	x: 5.5d,
+	y: 6.5d,
+	text: [
+		"Он тот самый"
+	],
+	dependencies: [
+		"9f4f32d5"
+	],
+	tasks: [{
+		uid: "01a8467f",
+		type: "item",
+		items: [{
+			item: "extrautils2:creativechest"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f3149cd0",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyVariant: "neon",
+				TrophyColorGreen: 128,
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "extrautils2:creativechest",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 128,
+				TrophyName: "Креатив",
+				TrophyColorRed: 128
+			}
+		}
+	}]
+}

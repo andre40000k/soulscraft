@@ -1,0 +1,25 @@
+{
+	title: "Выкидывать нечего не нужно",
+	x: -22.0d,
+	y: -5.0d,
+	dependencies: [
+		"6f160f02"
+	],
+	tasks: [{
+		uid: "fefc4c70",
+		type: "item",
+		items: [{
+			item: "threng:machine"
+		}]
+	}],
+	rewards: [{
+		uid: "b72435ac",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_75_"
+			}
+		}
+	}]
+}

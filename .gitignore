@@ -1,0 +1,33 @@
+# === Minecraft runtime / мусор ===
+logs/
+crash-reports/
+debug.log
+*.log
+# миры и локальные данные
+saves/
+local/
+journeymap/
+xaero-waypoints/
+# лаунчеры и кеш
+.minecraft/
+libraries/
+# скриншоты и экспорт
+screenshots/
+*.mrpack
+*.zip
+pack.zip
+
+# === Серверные миры ===
+world/
+world_nether/
+world_the_end/
+plugins/      # если Paper/Spigot
+
+# === Иде/ОС мусор ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# === Packwiz и прочее ===
+.packwiz/

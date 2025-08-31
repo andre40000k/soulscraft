@@ -1,0 +1,30 @@
+{
+	title: "Вот это точно самое нужное",
+	icon: "extrautils2:drum 1 4",
+	x: 11.5d,
+	y: -2.5d,
+	text: [
+		"Барабан..."
+	],
+	dependencies: [
+		"257f84b3"
+	],
+	tasks: [{
+		uid: "fb3d99d0",
+		type: "item",
+		items: [{
+			item: "extrautils2:drum 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "eefbb08e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "6"
+			}
+		},
+		count: 16
+	}]
+}
